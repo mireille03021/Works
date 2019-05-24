@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="stylesheets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" href="stylesheets/animate.css">
+    <title>展逢的作品集</title>
+</head>
+
+<body>
+    <nav class="header py-3 navbar fixed-top slideInDown animated">
+        <div class="container">
+            <div class="Title-Block">
+                <div class="Left-Title">
+                    <span>Hugo的作品集</span>
+                </div>
+                <div class="Right-Title">
+                    <a id="toHome" href="#Home">Home</a>
+                    <a id="toWorks" href="#Works">Works</a>
+                    <a id="toContact" href="#Contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div id="Home" class="Home-Block">
+        <div class="container row">
+            <div class="Intr-block col-6 fadeInUp animated">
+                <h1 class="text-dark">曹展逢 Hugo的作品集</h1>
+                <div class="link">
+                    <a href="https://github.com/mireille03021"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <img src="https://dummyimage.com/400x400/000/fff.png?text=400x400" alt="大頭照"
+                class="fadeInUp animated col-6">
+        </div>
+    </div>
+    <div id="Works">
+        <div class="container row">
+            <div class="work col-4 animated-block">
+                <h1>打地鼠遊戲</h1>
+                <a href="https://hitsmole-cf.azurewebsites.net/">
+                    <img src="./images/mole.png" alt="打地鼠">
+                </a>
+            </div>
+            <div class="work col-4 animated-block">
+                <h1>拼圖遊戲</h1>
+                <a href="https://cf-puzzle.azurewebsites.net/">
+                    <img src="./images/拼圖.png" alt="拼圖">
+                </a>
+            </div>
+            <div class="work col-4 animated-block">
+                <h1>小瑪莉遊戲</h1>
+                <a href="https://cf-turntable.azurewebsites.net/">
+                    <img src="./images/小瑪莉.png" alt="小瑪莉">
+                </a>
+            </div>
+            <div class="work col-4 animated-block">
+                <h1>貓奴選物</h1>
+                <a href="https://zennbuildschool.azurewebsites.net/">
+                    <img src="./images/cat-slave.png" alt="cat-slave">
+                </a>
+            </div>
+            <div class="work col-4 animated-block">
+                <h1>抽獎機</h1>
+                <a href="https://cf-picker.azurewebsites.net/">
+                    <img src="./images/抽獎機.png" alt="抽獎機">
+                </a>
+            </div>
+            <div class="work col-4 animated-block">
+                <h1>計算機</h1>
+                <a href="https://cf-calculator.azurewebsites.net/">
+                    <img src="./images/計算機.png" alt="計算機">
+                </a>
+            </div>
+            <div class="work col-4 animated-block">
+                <h1>記憶遊戲</h1>
+                <a href="https://cf-memorycard.azurewebsites.net">
+                    <img src="./images/記憶遊戲.png" alt="記憶遊戲">
+                </a>
+            </div>
+            <div class="work col-4 animated-block">
+                <h1>生命靈數</h1>
+                <a href="https://cf-horoscope.azurewebsites.net">
+                    <img src="./images/生命靈數.png" alt="生命靈數">
+                </a>
+            </div>
+            <div class="work col-4 animated-block">
+                <h1>終極密碼</h1>
+                <a href="https://davincicode.azurewebsites.net/">
+                    <img src="./images/終極密碼.png" alt="終極密碼">
+                </a>
+            </div>
+            <div class="work col-4 animated-block">
+                <h1>猜數字</h1>
+                <a href="https://cf-guessnumber.azurewebsites.net">
+                    <img src="./images/猜數字.png" alt="猜數字">
+                </a>
+            </div>
+            <div class="work col-4 animated-block">
+                <h1>信義房屋</h1>
+                <a href="https://sellhouse.azurewebsites.net/">
+                    <img src="./images/信義房屋.png" alt="信義房屋">
+                </a>
+            </div>
+            <div class="work col-4 animated-block">
+                <h1>剁手網</h1>
+                <a href="https://cuthandsweb.azurewebsites.net/">
+                    <img src="./images/剁手網.png" alt="剁手網">
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="Contact" class="text-dark">
+        <div class="container animated-block">
+            <h1 class="py-4">Contact</h1>
+            <ul>
+                <li><i class="fas fa-mobile-alt"> 0976-632-621</i></li>
+                <li><i class="far fa-envelope"></i> mireille03021@gmail.com</li>
+                <li><i class="fas fa-location-arrow"></i>
+                    Taiwan , Kaohsiung</li>
+            </ul>
+        </div>
+    </div>
+    <script src="./jquery-3.3.1.js"></script>
+    <script>
+        $(function () {
+            $(document).ready(function () {
+                /* Every time the window is scrolled ... */
+                $(window).scroll(function () {
+                    /* Check the location of each desired element */
+                    $('.animated-block').each(function (i) {
+                        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+                        /* If the object is completely visible in the window, fade it it */
+                        if (bottom_of_window > bottom_of_object) {
+                            $(this).addClass("fadeInUp animated");
+                        }
+                    });
+                });
+            });
+
+            $('#toHome').click(function () {
+                // 讓捲軸用動畫的方式移動到 #header 的 top 位置
+                // 並加入動畫效果
+                // 感謝網友 sam 修正 Opera 問題
+                var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+                $body.animate({
+                    scrollTop: $('#Home').offset().top
+                }, 1000);
+
+                return false;
+            });
+
+            $('#toWorks').click(function () {
+                // 讓捲軸用動畫的方式移動到 #header 的 top 位置
+                // 並加入動畫效果
+                // 感謝網友 sam 修正 Opera 問題
+                var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+                $body.animate({
+                    scrollTop: $('#Works').offset().top
+                }, 1000);
+
+                return false;
+            });
+
+            $('#toContact').click(function () {
+                // 讓捲軸用動畫的方式移動到 #header 的 top 位置
+                // 並加入動畫效果
+                // 感謝網友 sam 修正 Opera 問題
+                var $body = (window.opera) ? (document.compatMode == "CSS1Compat" ? $('html') : $('body')) : $('html,body');
+                $body.animate({
+                    scrollTop: $('#Contact').offset().top
+                }, 1000);
+
+                return false;
+            });
+
+        });
+    </script>
+    <!-- <script type="text/javascript" src="http://www.schillmania.com/projects/snowstorm/snowstorm.js"></script>
+    <script>
+        snowStorm.snowColor = '#fff';
+        snowStorm.flakesMaxActive = 100;
+        snowStorm.useTwinkleEffect = true;
+    </script> -->
+</body>
+
+</html>

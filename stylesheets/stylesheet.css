@@ -1,0 +1,132 @@
+html {
+  font-family: "Microsoft JhengHei";
+}
+
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.row {
+  margin: auto;
+}
+
+.header {
+  background-color: #9b9b9b;
+}
+
+.Title-Block {
+  height: 100%;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Home {
+  padding-top: 100px;
+}
+
+#Home h1 {
+  font-size: 3rem;
+}
+
+#Home .link {
+  text-align: left;
+  padding: 10px 0 0 30px;
+}
+
+#Home a {
+  display: inline-block;
+  color: #000;
+}
+
+#Home a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 50ms;
+  transition: 50ms;
+}
+
+#Home i::before {
+  font-size: 30px;
+}
+
+.Left-Title {
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+
+.Left-Title span {
+  color: white;
+}
+
+.Right-Title {
+  font-size: 1.2rem;
+  line-height: 36px;
+}
+
+.Right-Title a {
+  margin: 0 10px;
+}
+
+#Github-Icon {
+  width: 20px;
+}
+
+.Intr-block {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+}
+
+.animated-block {
+  opacity: 0;
+}
+
+#Works {
+  padding-top: 100px;
+  padding-bottom: 30px;
+  color: black;
+}
+
+#Works a {
+  display: block;
+}
+
+#Works img {
+  width: 100%;
+  height: 250px;
+}
+
+.work {
+  margin-bottom: 50px;
+}
+
+#Contact {
+  padding-bottom: 200px;
+}
+
+#Contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#Contact li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 300px;
+          flex: 0 0 300px;
+}
+/*# sourceMappingURL=stylesheet.css.map */
